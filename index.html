@@ -59,12 +59,13 @@
 <section class="contact" id="iletisim">
   <h2>İletişim</h2>
   <p> Tel: 0 536 594 14 59 (Gundondu Harita) </p>
-  <form>
-    <input type="text" placeholder="Adınız" required>
-    <input type="email" placeholder="E-posta" required>
-    <textarea placeholder="Mesajınız"></textarea>
+  <form action="https://formspree.io/f/mjggblln" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Adınız" required>
+    <input type="email" name="email" placeholder="E-posta" required>
+    <textarea name="message" placeholder="Mesajınız" required></textarea>
     <button type="submit">Gönder</button>
   </form>
+
 </section>
 
 <footer>
