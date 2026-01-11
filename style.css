@@ -89,3 +89,15 @@ footer {
   background: black;
   color: white;
 }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background: gold;
+  color: black;
+  cursor: pointer;
+}
